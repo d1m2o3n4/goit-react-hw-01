@@ -1,0 +1,20 @@
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+td,
+th {
+  padding: 5px 60px 5px 60px;
+}
+.tableTrans {
+  margin: 0 auto;
+}
+.tableTrans > thead {
+  background-color: black;
+  color: white;
+}
+.tableMain > tr:nth-child(even) {
+  background-color: lightgray;
+}

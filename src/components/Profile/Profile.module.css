@@ -1,0 +1,50 @@
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.info {
+  padding: 20px;
+}
+.avatar {
+  width: 200px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.userName {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.descr {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+}
+.userList {
+  display: flex;
+}
+.userItem {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: calc(100% / 3);
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid gray;
+  font-size: 30px;
+}
+.userItem:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.counter {
+  font-weight: 550;
+}
